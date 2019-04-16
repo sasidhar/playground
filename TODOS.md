@@ -1,0 +1,1 @@
+- MutationObserver API - DOM changes - To prevent showing password by changing the input type
