@@ -26,4 +26,12 @@
     console.log(`a(undefined, null)`);
     a(undefined, null);
 
+    [first, second, ...remaining] = [1,2,3,4,5,6,7,8,9,10];
+    console.log(`
+        [first, second, ...remaining] = 
+            [1,2,3,4,5,6,7,8,9,10];
+    `);
+    console.log("First: ", first);
+    console.log("Second: ", second);
+    console.log("Remaining: ", remaining);
 })();
